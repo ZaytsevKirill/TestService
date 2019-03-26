@@ -1,0 +1,19 @@
+{
+  "name": "yafus/test",
+  "type": "project",
+  "require": {
+    "php" : "^7.2",
+    "ext-mysqli": "*",
+    "ext-simplexml": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "classes\\": "classes",
+      "controllers\\": "controllers",
+      "configs\\": "configs",
+      "resourses\\": "resourses"
+    }
+  }
+}
+
